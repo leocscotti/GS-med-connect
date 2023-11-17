@@ -7,17 +7,17 @@ export default function Cabecalho() {
             <nav>
               <ul>
                 <li>
-                  <Link href="/gs_med/app/page.tsx">
+                  <Link href="/gs_med/app/page.jsx">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link href="/gs_med/app/">
+                  <Link href="/gs_med/app/servicos/page.jsx">
                     Sobre nós
                   </Link>
                 </li>
                 <li>
-                  <Link href="../../cadastro/page.jsx">
+                  <Link href="/gs_med/app/cadastro/page.jsx">
                     Cadastro
                   </Link>
                 </li>
