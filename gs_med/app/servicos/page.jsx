@@ -1,6 +1,6 @@
 
 
-export default function page() {
+export default function servicos() {
   return (
     <div>page</div>
   )
