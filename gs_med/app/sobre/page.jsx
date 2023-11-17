@@ -1,5 +1,5 @@
 // pages/SobreNos.js
-import Cabecalho from '../components/cabecalho/Cabecalho';
+import Cabecalho from '../components/cabecalho/cabecalho.jsx';
 import Rodape from '../components/rodape/Rodape.jsx';
 import React from 'react';
 
