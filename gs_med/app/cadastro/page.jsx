@@ -1,8 +1,27 @@
-import Image from 'next/image'
-import Cabecalho from './components/cabecalho/Cabecalho.jsx';
-//import Rodape from './components/rodape/Rodape.jsx';
-import React from 'react';
-export default function Home() {
+import React, { useState } from 'react';
+
+export default function page() {
+    const Cadastro = () => {
+        const [formData, setFormData] = useState({
+          nome: '',
+          email: '',
+          senha: '',
+        });
+       
+        const handleChange = (e) => {
+          const { name, value } = e.target;
+          setFormData({
+            ...formData,
+            [name]: value,
+          });
+        };
+       
+        const handleSubmit = (e) => {
+          e.preventDefault();
+          // Lógica para enviar os dados do formulário (pode ser uma chamada de API, etc.)
+          console.log('Dados do formulário:', formData);
+        };
+
   return (
     <div>
       <Cabecalho />
@@ -47,5 +66,5 @@ export default function Home() {
     </footer>
       </div>
     </div>
-  );
-}
+  )
+  }};
